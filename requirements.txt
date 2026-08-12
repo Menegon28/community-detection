@@ -1,0 +1,13 @@
+# Solo per l'immagine Docker
+# Il percorso locale è gestito da uv (si veda pyproject.toml / uv.lock)
+networkx==3.5
+scikit-learn==1.7.2
+pandas==2.3.3
+matplotlib==3.10.6
+psutil==7.1.0
+memory-profiler==0.61.0
+pyspark==3.5.8
+graphframes-py==0.12.1
+setuptools
+typing_extensions
+pyarrow

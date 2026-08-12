@@ -1,0 +1,12 @@
+services:
+  spark:
+    build: .
+    volumes:
+      - .:/app
+      - ivy2-cache:/root/.ivy2
+    working_dir: /app
+    stdin_open: true
+    tty: true
+
+volumes:
+  ivy2-cache:
